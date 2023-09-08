@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i;
 
 	while (i < 16)
 	{
-		char hexa = (i < 10) ? (i + '0') : (i - 10 + 'a');
+		char hexa = (i < 10) ? (i + '0') : (i - 10 + 'a')
 
-		putchar(hexa);
-		i++;
+			putchar(hexa);
+			i++;
 	}
 	putchar('\n');
 	return (0);
