@@ -2,14 +2,14 @@
 
 /**
  * print_numbers - a program that prints from 0 to 9
- * Return: hm
+ * Return: void
  */
 
 void print_numbers(void)
 {
-	int i = 0;
+	int c;
 
-	while (i < 10)
-		_putchar(i);
+	for (c = 0; c < 10; c++)
+		_putchar(c);
 	_putchar('\n');
 }
