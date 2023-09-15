@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - a fizz buzz program
@@ -31,4 +30,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-}i
+}
