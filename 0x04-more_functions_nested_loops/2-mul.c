@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * mul - a program that multiplies two integers
