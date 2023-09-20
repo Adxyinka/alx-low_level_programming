@@ -13,7 +13,7 @@ void rev_string(char *s)
 
 	while (start < end)
 	{
-		char tmp = *stat;
+		char tmp = *start;
 		*start = *end;
 		*end = tmp;
 
