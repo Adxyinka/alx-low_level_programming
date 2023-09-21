@@ -3,8 +3,8 @@
 
 /**
  * *_strncat - a program that concatenate two strings
- * @*dest: first string
- * @*src: second string
+ * @dest: first string
+ * @src: second string
  * Return: result
  */
 
