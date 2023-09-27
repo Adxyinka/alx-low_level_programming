@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stddef.h>
+#include "main.h"
 
 /**
  * _strstr - a program that finds the first occurence of substring
@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 				break;
 		}
 		if (needle[d] == '\0')
-			return (haystack +c);
+			return (haystack + c);
 	}
 
 	return (NULL);
